@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: #000000;
 }
 
+.footerbar {
+	background-color: #FAD983;
+	background-image: url("./images/bg_footer.gif");
+	color: #000000;
+}
+
 .navbar {
 	background-color: #F0D9A5;
 }
@@ -507,7 +513,7 @@ Colours and backgrounds for buttons.css
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9E289', EndColorStr='#FFFFFF')";
 	box-shadow: 0 0 0 1px #F9E289 inset;
 	-webkit-box-shadow: 0 0 0 1px #F9E289 inset;
-	color: #D31141;
+	color: #000000;
 }
 
 .dropdown-select {
