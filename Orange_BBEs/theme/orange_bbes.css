@@ -2,21 +2,21 @@
 --------------------------------------------- */
 
 body {
-  	background: url("./images/icons/grey003.gif") repeat scroll 0 0 #EEEEEE;
+  	background: url("./images/icons/orange.png") repeat scroll 0 0 #FAD983;
   	margin: 0;
   	font-family: 'Source Sans Pro','Arial','Helvetica',sans-serif;
   	font-size: 12px;
-  	background-color: #999999;
+  	background-color: #FAD983;
 }
  
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    	color: #7F7F7F;
-    	font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
-    	line-height: normal;
+    color: #7F7F7F;
+    font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
+    line-height: normal;
 	font-weight: 150;
-    	margin: 5px 0 10px;
+    margin: 5px 0 10px;
 	text-rendering: optimizeLegibility;/* Fix for webkit rendering, well at least for the time being */
-    	-webkit-font-smoothing: antialiased;/* Fix for webkit rendering, well at least for the time being */
+    -webkit-font-smoothing: antialiased;/* Fix for webkit rendering, well at least for the time being */
 }
 
 /* Round cornered boxes and backgrounds
@@ -103,6 +103,10 @@ dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info {
 
 .color-icon {
     	color: #FAD983;
+}
+
+.search-header {
+    box-shadow: 0px 0px 10px #E9A24D;
 }
 
 /*
@@ -493,11 +497,14 @@ Colours and backgrounds for buttons.css
 .button {
 	border-color: #FFA64D;
 	background-color: #F9E289;
-	background-image: -moz-linear-gradient(top, #F9E289, #FFA64D);
-	background-image: -webkit-linear-gradient(top, #F9E289, #FFA64D);
-	background-image: -o-linear-gradient(top, #F9E289, #FFA64D);
-	background-image: linear-gradient(to bottom, #F9E289, #FFA64D);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9E289', EndColorStr='#FFA64D')";
+	background-image: -moz-linear-gradient(top, #F9E289, #FFFFFF);
+	background-image: -webkit-linear-gradient(top, #F9E289, #FFFFFF);
+	background-image: -o-linear-gradient(top, #F9E289, #FFFFFF);
+	background-image: linear-gradient(to bottom, #F9E289, #FFFFFF);
+    font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
+    line-height: normal;
+	font-weight: 150;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9E289', EndColorStr='#FFFFFF')";
 	box-shadow: 0 0 0 1px #F9E289 inset;
 	-webkit-box-shadow: 0 0 0 1px #F9E289 inset;
 	color: #D31141;
@@ -509,12 +516,12 @@ Colours and backgrounds for buttons.css
 
 .button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
 	border-color: #FFA64D;
-	background-image: -moz-linear-gradient(top, #FFA64D, #F9E289);
-	background-image: -webkit-linear-gradient(top, #FFA64D, #F9E289);
-	background-image: -o-linear-gradient(top, #FFA64D, #F9E289);
-	background-image: linear-gradient(to bottom, #FFA64D, #F9E289);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFA64D', EndColorStr='#F9E289')";
-	text-shadow: 1px 1px 0 #FFA64D, -1px -1px 0 #F9E289, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	background-image: -moz-linear-gradient(top, #FFFFFF, #F9E289);
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #F9E289);
+	background-image: -o-linear-gradient(top, #FFFFF, #F9E289);
+	background-image: linear-gradient(to bottom, #FFFFF, #F9E289);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#F9E289')";
+	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #F9E289, -1px -1px 0 rgba(188, 42, 77, 0.2);
 }
 
 .dropdown-select:after	{ border-color: #FFA64D; }
