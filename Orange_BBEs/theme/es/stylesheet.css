@@ -1,0 +1,4 @@
+/* Online, offline and hidden images */
+.online { background-image: url("./icon_user_online.png"); }
+.offline { background-image: url("./icon_user_offline.png"); }
+/* .hidden { background-image: url("./icon_user_hidden.png"); } */
