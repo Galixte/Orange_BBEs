@@ -28,4 +28,5 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
 © 2014 - ThE KuKa (Raúl Arroyo Monzo) - [phpBB España](http://www.phpbb-es.com)
+
 ![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 
