@@ -4,8 +4,8 @@ Orange BBEs - phpBB Spain
 Orange BBEs style phpBB 3.1
 
 Requirements:
-- phpBB 3.1 RC4
-- proSilver
+- phpBB 3.1
+- prosilver
 
 Orange BBEs - phpBB España
 ==========================
@@ -13,8 +13,8 @@ Orange BBEs - phpBB España
 Estilo Orange BBEs phpBB 3.1
 
 Requiere:
-- phpBB 3.1 RC4
-- proSilver
+- phpBB 3.1
+- prosilver
 
 ## Corrección de errores
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
