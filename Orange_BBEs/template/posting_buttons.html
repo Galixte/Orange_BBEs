@@ -61,11 +61,9 @@
 
 <!-- EVENT posting_editor_buttons_before -->
 <div id="format-buttons">
-    <div class="btn-group">
-         <a href="#" class="button2" accesskey="b" name="addbbcode0" onclick="bbstyle(0); return false;" title="{L_BBCODE_B_HELP}"><i class="fa fa-bold"></i></a>
-         <a href="#" class="button2" accesskey="i" name="addbbcode2" onclick="bbstyle(2); return false;" title="{L_BBCODE_I_HELP}"><i class="fa fa-italic"></i></a>
-         <a href="#" class="button2" accesskey="u" name="addbbcode4" onclick="bbstyle(4); return false;" title="{L_BBCODE_U_HELP}"><i class="fa fa-underline"></i></a>
-	</div>
+	<input type="button" class="button2 bbcode-b" accesskey="b" name="addbbcode0" value=" B " style="font-weight:bold; width: 30px" onclick="bbstyle(0)" title="{L_BBCODE_B_HELP}" />
+	<input type="button" class="button2 bbcode-i" accesskey="i" name="addbbcode2" value=" i " style="font-style:italic; width: 30px" onclick="bbstyle(2)" title="{L_BBCODE_I_HELP}" />
+	<input type="button" class="button2 bbcode-u" accesskey="u" name="addbbcode4" value=" u " style="text-decoration: underline; width: 30px" onclick="bbstyle(4)" title="{L_BBCODE_U_HELP}" />
     <!-- IF S_BBCODE_QUOTE -->
 		<input type="button" class="button2 bbcode-quote" accesskey="q" name="addbbcode6" value="Quote" style="width: 50px" onclick="bbstyle(6)" title="{L_BBCODE_Q_HELP}" />
 	<!-- ENDIF -->
