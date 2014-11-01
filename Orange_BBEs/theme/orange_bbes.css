@@ -490,6 +490,10 @@ p.post-notice {
 	background-image: url("./images/icon_pages.gif");
 }
 
+ul.linklist li.responsive-menu a.responsive-menu-link:before {
+	top: 9px;
+}
+
 /*
 --------------------------------------------------------------
 Colours and backgrounds for buttons.css
