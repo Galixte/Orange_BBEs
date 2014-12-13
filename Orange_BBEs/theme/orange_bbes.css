@@ -491,7 +491,17 @@ p.post-notice {
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:before {
-	top: 9px;
+	border: none;
+	content: '\f0c9';
+	color: #888;
+	font-family: FontAwesome;
+	font-size: 14px !important;
+	line-height: inherit !important;
+	position: absolute;
+	height: auto;
+	width: auto;
+	left: 0px;
+	top: auto;
 }
 
 /*
