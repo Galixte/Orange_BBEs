@@ -20,7 +20,7 @@ Requiere:
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
 
 ## Algunas capturas
-![phpBB Spain](http://www.phpbb-es.com/images/notifications.png) 
+![phpBB Spain](http://www.phpbb-es.com/images/Orange_BBEs_screen.png) 
 
 ## [Demo Online - Orange BBEs](http://area51.phpbb-es.com/foro/index.php?style=16)
 
