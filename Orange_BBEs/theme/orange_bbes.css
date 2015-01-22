@@ -2,11 +2,11 @@
 --------------------------------------------- */
 
 body {
-  	background: url("./images/icons/orange.png") repeat scroll 0 0 #FAD983;
+	background-color: #FAD983;
+  	background: url("./images/orange.jpg") no-repeat fixed center top #D9DFDF;
   	margin: 0;
   	font-family: 'Source Sans Pro','Arial','Helvetica',sans-serif;
   	font-size: 12px;
-  	background-color: #FAD983;
 }
  
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
