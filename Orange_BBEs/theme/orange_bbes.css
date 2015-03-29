@@ -1,9 +1,11 @@
 /* Orange BBEs 
 --------------------------------------------- */
 
+html, body {
+  	background: url("./images/icons/orange.png") repeat scroll 0 0 #FAD983;
+}
+
 body {
-	background-color: #FBA210;
-  	/*background: url("./images/orange.jpg") no-repeat fixed center top #D9DFDF;*/
   	margin: 0;
   	font-family: 'Source Sans Pro','Arial','Helvetica',sans-serif;
   	font-size: 12px;
@@ -436,6 +438,7 @@ p.post-notice {
 	background: -o-linear-gradient(top, #D77118 0%, #EEB25D 100%);
 	background: -ms-linear-gradient(top, #D77118 0%, #EEB25D 100%);
 	background: linear-gradient(to bottom, #D77118 0%, #EEB25D 100%);
+	text-shadow: none;
 }
 
 .dropdown .pointer {
@@ -448,6 +451,10 @@ p.post-notice {
 
 .dropdown-extended .pointer-inner {
 	border-color: #D77118 transparent;
+}
+
+.dropdown .dropdown-contents {
+	border-color: #D77118;
 }
 
 /* Notification mark read link */
