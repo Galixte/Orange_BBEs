@@ -16,9 +16,9 @@ Requiere:
 - phpBB 3.1
 - prosilver
 
-## [Official Topic - Orange BBEs](https://www.phpbb.com/community/viewtopic.php?f=531&t=2307266)
-
-## [Official Support - Orange BBEs](https://www.phpbb.com/customise/db/style/orange_bbes/support)
+## Estilo validado oficialmente por phpBB 
+[Official Topic - Orange BBEs](https://www.phpbb.com/community/viewtopic.php?f=531&t=2307266)
+[Official Support - Orange BBEs](https://www.phpbb.com/customise/db/style/orange_bbes/support)
 
 ## Corrección de errores
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
