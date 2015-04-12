@@ -2,7 +2,7 @@
 --------------------------------------------- */
 
 html, body {
-  	background: url("./images/icons/orange.png") repeat scroll 0 0 #FAD983;
+  	background-color: #E18935;
 }
 
 body {
@@ -754,7 +754,7 @@ input.disabled {
 	top: 0;
 }
 
-.imageset.icon_topic_poll		{ background: url("./images/icons/poll.gif") 100% 100% no-repeat; padding: 14px 0 0 20px; vertical-align:middle; }
+.imageset.icon_topic_poll		{ background: url("./images/icons/icon_topic_poll.gif") 100% 100% no-repeat; padding: 14px 0 0 20px; vertical-align:middle; }
 
 .imageset.icon_topic_attach		{ background-image: url("./images/icons/icon_topic_attach.gif"); }
 
