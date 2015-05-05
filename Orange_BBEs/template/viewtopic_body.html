@@ -42,7 +42,7 @@
 	<!-- INCLUDE viewtopic_topic_tools.html -->
 
 	<!-- IF S_DISPLAY_SEARCHBOX -->
-		<div class="search-box">
+		<div class="search-box" role="search">
 			<form method="get" id="topic-search" action="{S_SEARCHBOX_ACTION}">
 			<fieldset>
 				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="{L_SEARCH_TOPIC}" />
@@ -65,6 +65,7 @@
 		</div>
 	<!-- ENDIF -->
 
+	<!-- EVENT viewtopic_body_pagination_top_after -->
 </div>
 
 <!-- IF S_HAS_POLL -->
@@ -253,7 +254,11 @@
 			<!-- ENDIF -->
 		<!-- ENDIF -->
 
+			<!-- EVENT viewtopic_body_postrow_post_details_before -->
+
 			<p class="author"><!-- IF S_IS_BOT -->{postrow.MINI_POST_IMG}<!-- ELSE --><i class="fa fa-bookmark"></i> <a href="{postrow.U_MINI_POST}" title="{L_POST}{L_COLON} &#35;{postrow.POST_ID}">{L_POST}{L_COLON} &#35;{postrow.POST_ID}</a><!-- ENDIF --> <span class="responsive-hide"><i class="fa fa-hand-o-right"></i> <strong>{postrow.POST_AUTHOR_FULL}</strong></span><br /><i class="fa fa-clock-o"></i> {postrow.POST_DATE}</p>
+
+			<!-- EVENT viewtopic_body_postrow_post_details_after -->
 
 			<!-- IF postrow.S_POST_UNAPPROVED -->
 			<form method="post" class="mcp_approve" action="{postrow.U_APPROVE_ACTION}">
