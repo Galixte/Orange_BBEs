@@ -135,11 +135,11 @@ ul.topiclist dd {
 }
 
 ul.topiclist li.row dt a.subforum.read {
-	background-image: url("./images/subforum_read.gif");
+	background-image: url("./images/icons/subforum_read.gif");
 }
 
 ul.topiclist li.row dt a.subforum.unread {
-	background-image: url("./images/subforum_unread.gif");
+	background-image: url("./images/icons/subforum_unread.gif");
 }
 
 li.row {
@@ -735,6 +735,11 @@ input.disabled {
 	background-image: url("./images/icons/icon_user_hidden.png");
 }
 */
+
+li.row strong {
+	font-weight: bold;
+	color: inherit;
+}
 
 /* Imageset */
 .imageset:before {
